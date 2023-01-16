@@ -2,5 +2,10 @@
     background-color: white;
     text-align: center;
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
     display: block;
+}
+
+ol, ul{
+    list-style: none;
 }

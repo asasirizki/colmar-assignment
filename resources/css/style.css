@@ -1,3 +1,5 @@
+/* Universal Rules */
+
 body{
     background-color: white;
     text-align: center;
@@ -6,6 +8,8 @@ body{
     display: block;
     margin: 1rem 24px;
 }
+
+/* Remove styles from list elements and align them horizontally using flex */
 
 ol, ul{
     list-style: none;

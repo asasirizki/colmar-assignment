@@ -8,4 +8,19 @@ body{
 
 ol, ul{
     list-style: none;
+    display: flex;
+    margin-right: 24px;
+}
+
+li{
+    margin-right: 16px;
+}
+
+.flex--header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    
 }

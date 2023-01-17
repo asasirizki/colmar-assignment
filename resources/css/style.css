@@ -17,7 +17,7 @@ li{
     margin-right: 16px;
 }
 
-img{
+.container--media img{
     width: 60%;
 }
 
@@ -29,5 +29,17 @@ img{
 .flexbox--cta{
     display: flex;
     margin-top: 32px;
+    text-align: left;
 }
 
+#box--startlearning{
+    margin: 32px 72px;
+}
+
+#flex--upper{
+    display: flex;
+}
+
+#flex--lower{
+    display: flex;
+}

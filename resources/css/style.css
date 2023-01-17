@@ -4,6 +4,7 @@ body{
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     color: grey;
     display: block;
+    margin: 1rem 24px;
 }
 
 ol, ul{
@@ -16,11 +17,17 @@ li{
     margin-right: 16px;
 }
 
+img{
+    width: 60%;
+}
+
 .flex--header{
     display: flex;
     justify-content: space-between;
 }
 
-nav{
-    
+.flexbox--cta{
+    display: flex;
+    margin-top: 32px;
 }
+

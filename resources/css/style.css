@@ -38,8 +38,10 @@ li{
 
 #flex--upper{
     display: flex;
+    justify-content: space-around;
 }
 
 #flex--lower{
     display: flex;
+    justify-content: space-around;
 }

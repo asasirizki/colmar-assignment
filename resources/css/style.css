@@ -7,6 +7,32 @@ body{
     color: grey;
     display: block;
     margin: 1rem 24px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h2{
+    font-weight:400;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 25px;
+    width: 60%;
+}
+
+h4{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#learn{
+    width: 500px;
 }
 
 /* Remove styles from list elements and align them horizontally using flex */
@@ -46,6 +72,20 @@ li{
     margin-top: 15%;
 }
 
+#button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
 
 #box--startlearning{
     margin: 32px 72px;
@@ -65,3 +105,39 @@ li{
     display: flex;
     justify-content: space-between;
 }
+
+.box--right{
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    border: 1px solid black;
+}
+
+.flex--boxes{
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.box--info{
+    margin-left: 25px;
+    margin-top: -40px;
+}
+
+.box--info h3{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.box--info h4{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.box--info a{
+    font-size: 15px;
+}
+
+.box--img{
+    margin-bottom: 5rem;
+}
+

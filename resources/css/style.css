@@ -90,6 +90,16 @@ li{
     cursor: pointer;
 }
 
+.flex--quote h1{
+    font-size: 50px;
+}
+
+.flex--quote h3{
+    font-weight: 300;
+    font-size: 25px;
+    width: 95%;
+}
+
 #flex--startlearning{
     margin-top: 32px;
     padding: 28px 28px;
@@ -105,6 +115,7 @@ li{
 #flex--upper{
     display: flex;
     justify-content: space-around;
+    
 }
 
 #flex--lower{
@@ -112,12 +123,34 @@ li{
     justify-content: space-around;
 }
 
-#footer{
-    display: flex;
-    justify-content: space-between;
+.box--courses{
+    background-color: #E9EEF6;;
+    margin-left: 50px;
+    margin-top: 32px;
+    padding: 0;
 }
 
-.box--right{
+
+
+.courses--text{
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.courses--text h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.courses--text h4{
+    margin-top: 8px;
+    font-weight: 100;
+    font-size: 25px;
+    
+}
+
+#box--right{
     margin-left: 25px;
     padding-left: 25px;
     padding-top: 25px;
@@ -164,3 +197,32 @@ li{
     background-color: #E9EEF6;
     color: black;
 }
+
+#box--right--thesis{
+    margin-left: 25px;
+    padding-left: 25px;
+    border: none;
+}
+
+#box--right--thesis .flex--boxes{
+   margin-top: 0;
+   background-color: white;
+   width: 100%;
+   margin-bottom: 50px;
+    
+}
+
+
+.box--img--thesis{
+    margin-bottom: 0;
+}
+
+.container--media video{
+    width: 160%;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+

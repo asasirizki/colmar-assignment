@@ -66,12 +66,13 @@ li{
 
 #first--cta{
     background-color: #E9EEF6;
+    border: none
 }
 
 #first--text{
     color: black;
     margin-left: 0;
-    margin-top: 15%;
+    margin-top: 10%;
     padding-left: 30px;
 }
 
@@ -89,9 +90,16 @@ li{
     cursor: pointer;
 }
 
+#flex--startlearning{
+    margin-top: 32px;
+    padding: 28px 28px;
+    text-align: center;
+    border: 1.5px solid black;
+}
 
 #box--startlearning{
     margin: 32px 72px;
+    padding: 10px;
 }
 
 #flex--upper{

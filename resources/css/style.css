@@ -132,7 +132,7 @@ li{
 }
 
 .flex--quote .container--media img{
-    max-width: 256%;
+    max-width: 210%;
 }
 
 #flex--startlearning{
@@ -163,10 +163,13 @@ li{
     margin-left: 50px;
     margin-top: 32px;
     padding: 0;
+    max-width: 25rem;
 }
 
 
-
+.courses--img img{
+    max-width: 25rem;
+}
 .courses--text{
     text-align: left;
     margin-top: 16px;
@@ -186,8 +189,8 @@ li{
 }
 
 #box--right{
-    margin-left: 25rem;
-    padding-left: 25px;
+    margin-left: 12rem;
+    padding-left: 15px;
     padding-top: 25px;
     border: 1px solid black;
 }
@@ -195,6 +198,7 @@ li{
 .flex--boxes{
     display: inline-flex;
     align-items: flex-start;
+    max-height: 100%;
 }
 
 .box--info{
@@ -228,7 +232,7 @@ li{
 
 #box--right--thesis{
     margin-left: 25px;
-    padding-left: 25px;
+    padding-left: 15px;
     border: none;
 }
 
@@ -243,6 +247,15 @@ li{
 
 .box--img--thesis{
     margin-bottom: 0;
+}
+
+.box--img--thesis img{
+    max-height: 20rem;
+}
+
+.box--info{
+    margin-top: 0.2rem;
+    margin-right: 1rem;
 }
 
 .container--media video{

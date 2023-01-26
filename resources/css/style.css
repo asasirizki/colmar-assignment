@@ -53,14 +53,20 @@ li{
     margin-right: 16px;
 }
 
+/* Ruleset for box elements containing media (pictures and video) */
+
 .container--media{
     max-width: 60%;
 }
+
+/* Ruleset for header element */
 
 .flex--header{
     display: flex;
     justify-content: space-between;
 }
+
+/* Ruleset for box elements with flex, used in both CTA sections */
 
 .flexbox--cta{
     display: flex;
@@ -69,6 +75,8 @@ li{
     text-align: left;
     border: 1.5px solid black;
 }
+
+/* Ruleset for first CTA section */
 
 #first--cta{
     background-color: #E9EEF6;
@@ -95,6 +103,8 @@ li{
     margin: 20px 2px;
     cursor: pointer;
 }
+
+/* Ruleset for flexbox in 2nd CTA section containing an image and a quote */
 
 .flex--quote h1{
     font-size: 50px;

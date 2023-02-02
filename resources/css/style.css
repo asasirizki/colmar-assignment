@@ -135,6 +135,8 @@ li{
     max-width: 210%;
 }
 
+/* Ruleset for "Start Learning" section featuring 2 rows of flexboxes containing an image and info text */
+
 #flex--startlearning{
     margin-top: 32px;
     padding: 28px 28px;
@@ -258,9 +260,13 @@ li{
     margin-right: 1rem;
 }
 
+/* Ruleset for video within "Thesis exhibit" section */
+
 .container--media video{
     width: 160%;
 }
+
+/* Ruleset for footer section */
 
 #footer{
     display: flex;
